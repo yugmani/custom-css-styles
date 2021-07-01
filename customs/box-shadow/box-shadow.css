@@ -1,0 +1,66 @@
+code {
+  font-family: 'Courier New', Courier, monospace;
+  color: darkgray;
+}
+
+.box {
+  margin: 10px 0 0 100px;
+  height: 80px;
+  width: 200px;
+  border: 2px solid darkgray;
+  border-radius: 8px;
+  font-size: 30px;
+  display: grid;
+  place-content: center;
+}
+
+.box-1 {
+  box-shadow: 50px 0px rgba(0, 0, 100, 0.5);
+  background-color: lightcoral;
+}
+
+.box-2 {
+  box-shadow: -50px 0px rgba(0, 0, 100, 0.5);
+  background-color: lightcoral;
+}
+
+.box-3 {
+  box-shadow: 0 50px rgba(0, 0, 100, 0.5);
+  background-color: lightcyan;
+}
+
+.box-4 {
+  box-shadow: 0 -50px rgba(0, 0, 100, 0.5);
+  background-color: lightcyan;
+}
+
+.boxy {
+  margin-bottom: 50px;
+}
+
+.box-y {
+  margin-top: 58px;
+}
+
+.box-5 {
+  box-shadow: 20px 20px rgba(0, 200, 0, 0.5);
+  background-color: lightskyblue;
+}
+
+.box-6 {
+  box-shadow: -20px -20px rgba(0, 200, 0, 0.5);
+  background-color: lightskyblue;
+  margin-top: 25px;
+}
+
+.box-7 {
+  box-shadow: -20px 20px rgba(200, 0, 0, 0.5);
+  background-color: lightpink;
+  margin-bottom: 20px;
+}
+
+.box-8 {
+  box-shadow: 20px -20px rgba(200, 0, 0, 0.5);
+  background-color: lightpink;
+  margin-top: 30px;
+}
